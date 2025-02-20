@@ -37,7 +37,7 @@ export default function Page() {
                     <span className="flex-1">
                       <strong className="text-white">About</strong> – Studio introduction with team member photos,
                       service overview (Architecture, Infrastructure, Interior, Digital, Research), practice insights
-                      with a highlighted quote, and a dedicated section on the studio's approach.
+                      with a highlighted quote, and a dedicated section on the studio&apos;s approach.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -51,7 +51,7 @@ export default function Page() {
                     <ArrowRight className="h-4 w-4 mt-1 text-[#FFD700]" />
                     <span className="flex-1">
                       <strong className="text-white">Experience</strong> – Display of 6–8 key aspects of experience,
-                      featuring images and descriptions, inspired by the 'Archive' section.
+                      featuring images and descriptions, inspired by the &apos;Archive&apos; section.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">

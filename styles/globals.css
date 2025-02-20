@@ -66,12 +66,11 @@
 }
 
 .title-text {
-
   background: linear-gradient(
-    90deg, 
+    -45deg, 
     #FFD700 0%, 
     #FFD700 40%,  
-    #fffacd 50%, 
+    #ffffff 50%, 
     #FFD700 60%,  
     #FFD700 100%
 );

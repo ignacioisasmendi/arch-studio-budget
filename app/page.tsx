@@ -12,6 +12,7 @@ export default function Page() {
             <p className="text-gray-400">Project proposal</p>
           </header>
 
+
           <section className="space-y-8">
             <div className="space-y-2">
               <h2 className="text-2xl font-light">Project Scope</h2>
@@ -126,9 +127,11 @@ export default function Page() {
           <section className="space-y-8">
             <h2 className="text-2xl font-light">Pricing</h2>
             <div className="space-y-6">
-              <p className="text-xl">
-                Total Project Cost: <span className="text-[#FFD700]">$3800 USD</span>
-              </p>
+            <p className="text-xl">
+              Total Project Cost: <span className="text-gray-400 line-through text-sm">$5600 USD</span>  
+              <span className="text-green-500 text-sm"> 25% OFF</span>
+              <span className="text-[#FFD700]"> $4200 USD</span>  
+            </p>
 
               <div className="space-y-4">
                 <p className="text-gray-400">This includes:</p>
@@ -159,12 +162,13 @@ export default function Page() {
           <footer className="pt-8 border-t border-white/10">
             <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
               <div className="flex gap-4">
-                <Link
-                  href="#"
+                <a
+                  href="/budget.pdf"
                   className="px-6 py-2 border border-[#FFD700] text-[#FFD700] hover:bg-[#FFD700] hover:text-black transition-all duration-300 ease-in-out"
-                >
+                  download
+                > 
                   Download PDF
-                </Link>
+                </a>
                 <Link
                   href="mailto:atilio6999@gmail.com"
                   className="px-6 py-2 bg-[#FFD700] text-black hover:bg-[#FFD700]/90 transition-all duration-300 ease-in-out"
